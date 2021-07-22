@@ -8,7 +8,7 @@ const Info=()=>{
         <br/>
         <h2 className="text-center" style={{fontWeight: 'bold', fontSize: '31px', fontFamily: 'Lucida Handwriting'}}> Real People. Real Service.</h2>
         <br/>
-        <Row xs={1} md={3}>
+        <Row xs={1} md={3} style={{marginLeft: '10px', marginRight: '10px'}} >
             <Col>
                 <img src="https://s3.amazonaws.com/s3.supplyhouse.com/html/img/supplyhouse/bg/img_valuewidget_product2.png" alt="P" width="40%"/>
                 Huge Selection of Products

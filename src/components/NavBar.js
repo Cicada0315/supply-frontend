@@ -18,11 +18,10 @@ const NavBar=()=>{
     return(
         <>
         <div display="inline-flex">
-            <br/>
-            <img src="https://s3.amazonaws.com/s3.supplyhouse.com/html/react/b1030fbbf9258611ad7b86beceb57ac1.svg" alt="Fast Track Logo" width="100" height="50"/>
-            <span style={{color: 'textDarkGray', fontSize: '12px'}}>Order by 6PM, receive tomorrow</span>&nbsp;
+            <img src="https://s3.amazonaws.com/s3.supplyhouse.com/html/react/b1030fbbf9258611ad7b86beceb57ac1.svg" alt="Fast Track Logo" width="100" height="50"/>&nbsp;
+            <span style={{color: 'DarkGray', fontSize: '12px'}}>Order by 6PM, receive tomorrow</span>&nbsp;
             <span>●</span>&nbsp;
-            <span style={{color: 'textTan', fontWeight: 'bold', fontSize: '11px,13px,12px,14px'}}>Free Shipping on order over $99</span>
+            <span style={{color: 'Tan', fontWeight: 'bold', fontSize: '11px,13px,12px,14px'}}>Free Shipping on order over $99</span>
         </div>
         <hr/>
         <Navbar bg="light" variant="dark" expand="lg">
@@ -33,9 +32,8 @@ const NavBar=()=>{
                     <FormControl className="form-group" onChange={handleonChange} type="text" placeholder="Search" value={search.query} size="lg"/>
                     <Button variant="info" type="submit"><img src={Search} alt="logo" width="30" height="30"/></Button>
                     &nbsp; &nbsp;
-                    <span style={{color: 'textTan', fontWeight: 'bold', fontSize: '20px'}}>888-757-4774</span>
-                </Form>
-                
+                    <span style={{color: 'Tan', fontWeight: 'bold', fontSize: '20px'}}>888-757-4774</span>
+                </Form> 
             </Navbar.Collapse>
             <Navbar.Collapse className="justify-content-end">
                 <Button variant="light"><strong>SIGN IN</strong><img src={User} alt="logo" width="20" height="20"/></Button>
