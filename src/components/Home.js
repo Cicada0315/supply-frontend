@@ -1,5 +1,6 @@
 import React from 'react';
 import {Col, Row, Button} from 'react-bootstrap';
+import Categories from './Categories'
 
 const Home=()=>{
     return(
@@ -14,6 +15,7 @@ const Home=()=>{
             </Col>
         </Row>
         <br/>
+        <Categories />
         </>
     );
 };
