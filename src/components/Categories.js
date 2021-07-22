@@ -6,35 +6,35 @@ const Categories=()=>{
         <Row xs={8} sm={8} lg={8} className="text-center">
             <Col>
             <img src="https://s3.amazonaws.com/s3.supplyhouse.com/html/img/phone/category/plumbing.jpg" alt="P" width="100%"/>
-            Plumbing >
+            <strong>Plumbing ></strong>
             </Col>
             <Col>
             <img src="https://s3.amazonaws.com/s3.supplyhouse.com/html/img/phone/category/heating.jpg" alt="P" width="100%"/>
-            Heating >
+            <strong>Heating ></strong>
             </Col>
             <Col>
             <img src="https://s3.amazonaws.com/s3.supplyhouse.com/html/img/phone/category/hvac.jpg" alt="P" width="100%"/>
-            HVAC >
+            <strong>HVAC ></strong>
             </Col>
             <Col>
             <img src="https://s3.amazonaws.com/s3.supplyhouse.com/html/img/phone/category/pex.jpg" alt="P" width="100%"/>
-            PEX >
+            <strong>PEX ></strong>
             </Col>
             <Col>
             <img src="https://s3.amazonaws.com/s3.supplyhouse.com/html/img/phone/category/fittings.jpg" alt="P" width="100%"/>
-            Fittings >
+            <strong>Fittings ></strong>
             </Col>
             <Col>
             <img src="https://s3.amazonaws.com/s3.supplyhouse.com/html/img/phone/category/valves.jpg" alt="P" width="100%"/>
-            Valves >
+            <strong>Valves ></strong>
             </Col>
             <Col>
             <img src="https://s3.amazonaws.com/s3.supplyhouse.com/html/img/supplyhouse/icons/thermostats.jpg" alt="P" width="100%"/>
-            Thermostats >
+            <strong>Thermostats ></strong>
             </Col>
             <Col>
             <img src="https://s3.amazonaws.com/s3.supplyhouse.com/html/img/supplyhouse/icons/electric.jpg" alt="P" width="100%"/>
-            Electrical >
+            <strong>Electrical ></strong>
             </Col>
         </Row>
     );
