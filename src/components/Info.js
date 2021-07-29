@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Button, Col, Row} from 'react-bootstrap';
+import { Card, Button, Col, Row } from 'react-bootstrap';
 
 const Info=()=>{
     return (
@@ -15,7 +15,7 @@ const Info=()=>{
                         <img src="https://s3.amazonaws.com/s3.supplyhouse.com/html/img/supplyhouse/bg/img_valuewidget_product2.png" alt="P" width="100%"/>
                     </Col>
                     <Col>
-                        <h6>Huge Selection of Products</h6>
+                        <h6 style={{color: 'Tan'}}>Huge Selection of Products</h6>
                         We stock lots of hard to find items in our 500,000 sq. ft. of warehouse space.
                     </Col>
                 </Row>
@@ -46,7 +46,7 @@ const Info=()=>{
                     <img src="https://s3.amazonaws.com/s3.supplyhouse.com/html/img/supplyhouse/bg/value-widget-resources.png" alt="P" width="100%"/>
                     </Col>
                     <Col>
-                    <h6>Helpful Resources</h6>
+                    <h6 style={{color: 'Tan'}}>Helpful Resources</h6>
                     Videos, manuals, calculators and install guides for your next job.
                     </Col>
                 </Row>
@@ -78,7 +78,7 @@ const Info=()=>{
                     <img src="https://s3.amazonaws.com/s3.supplyhouse.com/html/img/supplyhouse/bg/img_valuewidget_cs2_@1_5.png" alt="P" width="100%"/>
                     </Col>
                     <Col>
-                    <h6>Friendly Customer Service</h6>
+                    <h6 style={{color: 'Tan'}}>Friendly Customer Service</h6>
                     Our dedicated customer care team wants to help you get what you need.
                     </Col>
                 </Row>
